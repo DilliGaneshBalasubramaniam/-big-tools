@@ -1,0 +1,23 @@
+#flow control statements:
+
+#if else elif
+#loopings
+#break
+#continue
+#pass
+# x= 12
+
+# if (x>10 or x==11):
+#     print("x is greater than 10")
+# elif x==10:
+#     print("x is equal to 10")
+# elif x==11:
+#     print("x is equal to 11")
+# else:
+#     print("x is not greater than 10")
+
+# name= "softlgic"
+# if name.find("o") != -1:
+#     print("the string has o")
+# else:
+#     print("the string has no o")
