@@ -5,6 +5,8 @@
 #break
 #continue
 #pass
+
+
 # x= 12
 
 # if (x>10 or x==11):
@@ -21,3 +23,114 @@
 #     print("the string has o")
 # else:
 #     print("the string has no o")
+
+
+# loopings-------------
+
+
+# for loop - we should give start and end range
+# while loop - only starting point is enough, it will loop infinite times....
+# insName = "softlogic institute"
+# for data in insName:
+#     print(data)
+
+
+# print("end------")
+
+
+# for data in range(3,10):
+#     print(data)
+
+
+
+# print("end----")  
+
+# stringLength = len(insName)
+# for data in range(len(insName)):
+#     print(data,insName[data])
+   
+
+# print("end----")
+
+# # outside the for loop
+# num=0
+# for data in range(stringLength):
+#     print("first print -->", num)
+#     num +=1
+#     print("second print-->",num)
+
+# print("end----")   
+
+# # inside the for loop
+# for data in range(stringLength):
+#     num=0
+#     print("first print -->", num)
+#     num +=1
+#     print("second print-->",num)
+# print("end----")  
+
+# # for data in range(stringLengthName):
+    
+#     if (data % 2 ==0):
+
+    
+# #      print(data,insName[data])
+
+# insName = "softlogic institute"
+# stringLengthName =  len(insName)
+
+
+# num =2
+# for i in range(stringLengthName):
+   
+#    if i==num:
+#       print(i,insName[i])
+#       num= num+3
+         
+name1 = "santhosh"
+output = ""
+
+# for i in name1:
+#     output +=(i+"_")
+
+#     print(output[0:15])
+for i in range(len(name1)):
+        if(i==len(name1)-1):
+            output += (name1[i])
+        else:
+            output += (name1[i] + "_")
+print(output)
+
+name ="santhoshkumar"
+name1 ="sureshkumar"
+
+n =""
+
+
+
+for i in name:
+     print(i)
+     for j in name1:
+          print(j)
+          if i == j:
+           n+=i
+          print(n)
+
+q=""
+
+for k  in  n:
+      if k not in q:
+       q+=k
+       print(q)
+
+
+    
+
+
+
+
+
+
+
+
+
